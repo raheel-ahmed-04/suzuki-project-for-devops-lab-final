@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: suzuki-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: suzuki
+  template:
+    metadata:
+      labels:
+        app: suzuki
+    spec:
+      containers:
+        - name: suzuki-app
+          image: raheelgenius747/suzuki-app:latest
+          ports:
+            - containerPort: 80

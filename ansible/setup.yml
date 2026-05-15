@@ -1,0 +1,56 @@
+- name: DevOps Full Stack Setup (Docker + Jenkins + Grafana + K8s)
+  hosts: ec2
+  become: yes
+
+  tasks:
+
+    # =========================
+    # UPDATE SYSTEM
+    # =========================
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    # =========================
+    # INSTALL DOCKER
+    # =========================
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+
+    - name: Enable and start Docker
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    # =========================
+    # INSTALL K3S (KUBERNETES)
+    # =========================
+    - name: Install Kubernetes (k3s)
+      shell: curl -sfL https://get.k3s.io | sh
+
+    # =========================
+    # INSTALL JENKINS (DOCKER)
+    # =========================
+    - name: Run Jenkins container
+      shell: |
+        docker run -d \
+          --name jenkins \
+          -p 8080:8080 -p 50000:50000 \
+          -v jenkins_home:/var/jenkins_home \
+          -v /var/run/docker.sock:/var/run/docker.sock \
+          jenkins/jenkins:lts
+      ignore_errors: yes
+
+    # =========================
+    # INSTALL GRAFANA (DOCKER)
+    # =========================
+    - name: Run Grafana container
+      shell: |
+        docker run -d \
+          --name grafana \
+          -p 3001:3000 \
+          grafana/grafana
+      ignore_errors: yes
