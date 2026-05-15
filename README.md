@@ -1,14 +1,12 @@
 # Suzuki Campbellpur Motors Brand Website
 
-A product of "Car Showroom Web Services" brand.
+## DevOps Lab Implementation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Testing 1
-Testing 2
+This project is being used to demonstrate a full DevOps pipeline including:
+- Git version control
+- Docker containerization
+- AWS infrastructure provisioning using Terraform
+- Configuration management using Ansible
+- CI/CD using Jenkins
+- Kubernetes deployment
+- Monitoring using Grafana and Prometheus

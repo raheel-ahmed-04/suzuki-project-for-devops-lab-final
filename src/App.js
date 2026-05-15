@@ -71,7 +71,7 @@ function App() {
     return (
       <>
         <Helmet>
-          <title>Suzuki Campbellpur Motors</title>
+          <title>DevOps - Suzuki Campbellpur Motors</title>
           <meta
             name="description"
             content="Suzuki franchise offering a wide range of cars and spare parts online. Discover our latest models and genuine spare parts with convenient online shopping."
