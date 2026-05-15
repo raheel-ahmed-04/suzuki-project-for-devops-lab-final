@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  /* background-color: rgb(93, 92, 90); */
+}
+
+.top-bar {
+  background-color: #bf1f1f;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px; /* Spacing inside the top bar */
+  font-size: 0.9rem;
+  /* gap:90px; */
+}
+
+.contact-info {
+  margin: 0;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  z-index: 10000;
+  height: 70px;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: #ffffff; /* Darker background for better contrast */
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  top: 0;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky; /* For Chrome and other browsers */
+  /* width: 100%; */
+}
+
+.navbar--logo {
+  height: 50px; /* Adjust the logo size for better proportions */
+}
+.navbar--tagline {
+  height: 50px; /* Adjust the logo size for better proportions */
+}
+
+.navbar--list {
+  /* display: flex; */
+  list-style: none;
+}
+
+.navbar--list li {
+  padding: 5px 3px; 
+}
+
+.navbar--list li a {
+  /* font-size: 1rem; 
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;  */
+  padding: 10px 0px;
+  /* position: relative;
+  display: inline-block;
+  transition: all 0.3s ease; */
+  /* border-radius: 5px; */
+}
+
+.navbar--list li a:hover {
+  /* color: #38daff;  */
+  color: #4e46cf;
+  transform: translateY(-2px);
+}
+
+.navbar--list li a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #4e46cf;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar--list li a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navbar--list li a.active {
+  color: #4e46cf; /* Same color as hover */
+  transform: translateY(-2px); /* Same effect as hover */
+}
+
+.navbar--list--mobile li a.active {
+  color: #4e46cf; 
+  text-indent: 6px;
+  text-decoration: underline;
+}
+
+
+.navbar--list li a.active::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Breadcrumbs Section */
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  gap: 1rem; /* Increased gap for better spacing */
+  padding: 0.5rem 1rem; /* Added padding for better alignment */
+  background-color: #f8f9fa; /* Light background for better contrast */
+  border-radius: 0.25rem; /* Rounded corners for a modern look */
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+  font-weight: 500; /* Slightly bolder text for better readability */
+}
+
+.breadcrumb li + li:before {
+  content: ">";
+  margin: 0 0.5rem;
+  color: #6c757d; /* Lighter color for the separator */
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #007bff; /* Blue color for links */
+  font-weight: 600; /* Bolder text for links */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hero Section */
+.hero-container {
+  position: relative;
+  height: 30vh; /* Height adjusts based on viewport height */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  overflow: hidden;
+}
+/* Background Image */
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out; /* Smooth fade and scale transition */
+  z-index: 1;
+  transform: scale(1.1); /* Slightly zoomed in */
+}
+
+.hero-background.active {
+  opacity: 1; /* When active, image is fully visible */
+  z-index: 1;
+  transform: scale(1); /* Zoom back to normal size */
+}
+
+/* Content over the image */
+.hero-content {
+  position: relative;
+  z-index: 2; /* Ensure content is above the background image */
+  text-align: center;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#hero-btn1 {
+  color: black;
+  background-color: #9591e5;
+}
+
+#hero-btn2 {
+  color: white;
+  background-color: #4e46cf;
+  transition: border-radius 0.3s ease;
+}
+
+.hero-btn:hover {
+  border-radius: 0;
+}
+
+/* Testimonials Section */
+/* Custom class to hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Hide scrollbars for WebKit browsers (Chrome, Safari) */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  /* -webkit-scrollbar-width: none; Chrome, Safari, and newer browsers */
+  /* scrollbar-width: none; Firefox */
+  flex-wrap: nowrap;
+  overflow: -moz-scrollbars-none; /* Old Firefox */
+  overflow: hidden; /* Hide scrollbars for other browsers */
+}
+
+/* Responsive adjustments */
+@media (min-width: 350px) {
+  .hero-container {
+    height: 25vh; /* Taller height on larger devices */
+  }
+}
+@media (min-width: 400px) {
+  .hero-container {
+    height: 28vh; /* Taller height on larger devices */
+  }
+}
+@media (min-width: 640px) {
+  .hero-container {
+    height: 40vh; /* Taller height on larger devices */
+  }
+}
+@media (min-width: 768px) {
+  .hero-container {
+    height: 55vh; /* Taller height on larger devices */
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    height: 70vh; /* Taller height for desktops */
+  }
+}
+@media (min-width: 1200px) {
+  .hero-container {
+    height: 550px; /* Taller height for desktops */
+  }
+}
+@media (min-width: 1470px) {
+  .hero-container {
+    height: 70vh; /* Taller height for desktops */
+  }
+}
+

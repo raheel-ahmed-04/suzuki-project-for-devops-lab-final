@@ -1,0 +1,686 @@
+{
+  "featuredPost": {
+    "title": "All-New Suzuki Models 2024",
+    "excerpt": "Experience the perfect blend of style, efficiency, and performance in our most advanced hatchback yet.",
+    "image": "/images/Cars2.jpg",
+    "price": "PKR 4,546,000/-",
+    "engine": "998 cc",
+    "category": "Hatchback"
+  },
+  "blogPosts": [
+    {
+      "title": "Suzuki Every",
+      "excerpt": "Spacious and comfortable, ideal for family or commercial use.",
+      "image": ["/images/blogs/every1.png", "/images/blogs/every2.jpg"],
+      "category": "Family",
+      "price": "PKR 2,749,000/-",
+      "engine": "660 cc",
+      "fuelEfficiency": "18 km/L",
+      "topSpeed": "180 km/h",
+      "curbWeight": "900 kg",
+      "content": "As we bid farewell to the beloved Bolan, a faithful companion on our roads for an impressive three decades, Pak Suzuki Motor Company Ltd. is revolutionizing the automotive scene with the launch of the dynamic Suzuki Every.\n\nThis vehicle redefines comfort and safety on the road, providing a first-class experience for every passenger. Perfect for daily commutes, school runs, and long family road trips, the Suzuki Every is designed with modern families in mind.\n\nThe Suzuki Every features a spacious interior, air conditioning, and power steering, ensuring a smooth and enjoyable drive in any condition. Thoughtful safety features such as dual airbags and an Anti-lock Braking System (ABS with EBD) prioritize your peace of mind.\n\nUnder the hood, the Suzuki Every strikes the perfect balance between power and efficiency with its 660cc engine, delivering exceptional fuel economy without compromising performance. Additionally, Suzuki offers a New Car Warranty of 3 Years or 60,000 Km, giving drivers added confidence in their purchase.\n\nWith advanced features and affordable pricing, the Suzuki Every is the ideal choice for families seeking the ultimate driving experience. It's time to move forward with confidence and choose a vehicle designed for the modern family.\n\nDon't just take our word for it.\n\nSchedule your test drive today and visit Suzuki Campbellpur Motors to discover the Suzuki Every."
+    },
+    {
+      "title": "Suzuki Swift",
+      "excerpt": "Sporty design and powerful performance for the modern driver.",
+      "image": [
+        "/images/blogs/swift1.png",
+        "/images/blogs/swift2.png",
+        "/images/blogs/swift3.png",
+        "/images/blogs/swift4.png",
+        "/images/blogs/swift5.png",
+        "/images/blogs/swift6.png"
+      ],
+      "category": "Sporty",
+      "price": "PKR 4,416,000/-",
+      "engine": "1197 cc",
+      "fuelEfficiency": "19 km/L",
+      "topSpeed": "200 km/h",
+      "curbWeight": "895 kg"
+    },
+    
+    {
+      "title": "Suzuki Cultus",
+      "excerpt": "Stylish and comfortable, equipped with advanced features.",
+      "image": ["/images/blogs/cultus1.png", "/images/blogs/cultus2.png"],
+      "category": "Stylish",
+      "price": "PKR 4,230,000/-",
+      "engine": "998 cc",
+      "fuelEfficiency": "17 km/L",
+      "topSpeed": "180 km/h",
+      "curbWeight": "795 kg"
+    },
+    {
+      "title": "Suzuki Alto",
+      "excerpt": "Compact and efficient, perfect for city driving.",
+      "image": [
+        "/images/blogs/alto1.png",
+        "/images/blogs/alto2.png",
+        "/images/blogs/alto3.png"
+      ],
+      "category": "Economy",
+      "price": "PKR 2,331,000/-",
+      "engine": "660 cc",
+      "fuelEfficiency": "22 km/L",
+      "topSpeed": "180 km/h",
+      "curbWeight": "670 kg"
+    },
+    {
+      "title": "Suzuki Ravi",
+      "excerpt": "Reliable and versatile, suitable for various commercial uses.",
+      "image": ["images/blogs/ravi1.png", "images/blogs/ravi1.png"],
+      "category": "Commercial",
+      "price": "PKR 1,956,000/-",
+      "engine": "796 cc",
+      "fuelEfficiency": "15 km/L",
+      "topSpeed": "180 km/h",
+      "curbWeight": "650 kg"
+    }
+  ],
+
+  "blogPosts2": [
+    {
+      "type": "Blog",
+      "title": "Discover the latest reviews of our Suzuki vehicles",
+      "date": "2 June 2022",
+      "category": "Car Reviews",
+      "image": "/images/cars/Cultus2.png",
+      "link": "/"
+    },
+    {
+      "type": "Blog",
+      "title": "Check out the newest Suzuki models available at our showroom",
+      "date": "2 June 2022",
+      "category": "Latest Models",
+      "image": "/images/Cars2.jpg",
+      "link": "/"
+    },
+    {
+      "type": "News",
+      "title": "Stay updated with the latest news from our dealership",
+      "date": "2 June 2022",
+      "category": "Dealership Updates",
+      "image": "/images/Ecstar-Banner-18x10-ATL-Adapt-min.jpg",
+      "link": "/"
+    },
+    {
+      "type": "Blog",
+      "title": "Top 5 Reasons to Choose Suzuki for Your Next Car",
+      "date": "5 July 2022",
+      "category": "Car Insights",
+      "image": "/images/art performance.png",
+      "link": "/"
+    },
+    {
+      "type": "News",
+      "title": "Exciting Events Coming Up at Our Showroom!",
+      "date": "15 July 2022",
+      "category": "Events",
+      "image": "/images/Ecstar.jpg",
+      "link": "/"
+    },
+    {
+      "type": "Blog",
+      "title": "Introducing the All-New Suzuki Every: Replacing Iconic Bolan",
+      "date": "15 November 2024",
+      "category": "Replacing",
+      "image": "/images/blogs/CoverBlog.png",
+      "link": "/"
+    }
+  ],
+  "vehiclesData": [
+    {
+      "model": "Suzuki Cultus",
+      "vehicle": {
+        "imgSrc": [
+          "/images/cars/colors/Cultus/silver.jpg",
+          "/images/cars/colors/Cultus/white.jpg",
+          "/images/cars/colors/Cultus/gray.jpg",
+          "/images/cars/colors/Cultus/pearl-black.png"
+        ],
+        "hoverImgSrc": "/images/logos/cultus-logo.png",
+        "tag": "TOP SELLER",
+        "title": "Suzuki Cultus",
+        "description": "Stylish and comfortable, equipped with advanced features.",
+        "basePrice": "4,230,000",
+        "colors": [
+          "Sand Beige",
+          "Pearl Red",
+          "Silky Silver",
+          "White",
+          "Super Pearl Black"
+        ]
+      },
+      "variants": [
+        {
+          "name": "VXR",
+          "price": "4,230,000/-",
+          "whtFiler": "42,300/-",
+          "whtNonFiler": "126,900/-"
+        },
+        {
+          "name": "VXL",
+          "price": "4,316,000/-",
+          "whtFiler": "43,160/-",
+          "whtNonFiler": "129,480/-"
+        },
+        {
+          "name": "AGS",
+          "price": "4,618,000/-",
+          "whtFiler": "46,180/-",
+          "whtNonFiler": "138,540/-"
+        }
+      ]
+    },
+    {
+      "model": "Suzuki Alto",
+      "vehicle": {
+        "imgSrc": [
+          "/images/cars/Alto.png",
+          "/images/cars/Alto2.png",
+          "/images/cars/Alto3.png",
+          "/images/cars/colors/Alto/silky-silver.png",
+          "/images/cars/colors/Alto/solid-white.jpg",
+          "/images/cars/colors/Alto/pearl-black.jpg"
+        ],
+        "hoverImgSrc": "/images/logos/alto-logo.png",
+        "tag": "TOP SELLER",
+        "title": "Suzuki Alto",
+        "description": "Compact and efficient, perfect for city driving.",
+        "basePrice": "2,331,000",
+        "colors": ["Pearl Black", "Silky Silver", "Solid White"]
+      },
+      "variants": [
+        {
+          "name": "VX",
+          "price": "2,331,000/-",
+          "whtFiler": "11,655/-",
+          "whtNonFiler": "34,965/-"
+        },
+        {
+          "name": "VXR",
+          "price": "2,827,000/-",
+          "whtFiler": "14,135/-",
+          "whtNonFiler": "42,405/-"
+        },
+        {
+          "name": "VXR AGS",
+          "price": "2,989,000/-",
+          "whtFiler": "14,945/-",
+          "whtNonFiler": "44,835/-"
+        },
+        {
+          "name": "VXL AGS",
+          "price": "3,140,000/-",
+          "whtFiler": "15,700/-",
+          "whtNonFiler": "47,100/-"
+        }
+      ]
+    },
+    {
+      "model": "Suzuki Swift",
+      "vehicle": {
+        "imgSrc": [
+          "/images/cars/swift2.png",
+          "/images/cars/colors/Swift/02.png",
+          "/images/cars/colors/Swift/04.png",
+          "/images/cars/colors/Swift/502.png",
+          "/images/cars/colors/Swift/Swift Red.png",
+          "/images/cars/colors/Swift/Two-Tone-02.png"
+        ],
+        "hoverImgSrc": "/images/logos/swift-logo.png",
+        "tag": "NEW ARRIVAL",
+        "title": "Suzuki Swift",
+        "description": "Sporty design and powerful performance for the modern driver.",
+        "basePrice": "4,416,000",
+        "colors": [
+          "Phoenix Red",
+          "Solid White",
+          "Mineral Gray",
+          "Silky Silver",
+          "Black",
+          "Two-Tone"
+        ]
+      },
+      "variants": [
+        {
+          "name": "GL MT",
+          "price": "4,416,000/-",
+          "whtFiler": "66,240/-",
+          "whtNonFiler": "198,720/-"
+        },
+        {
+          "name": "GL VVT",
+          "price": "4,560,000/-",
+          "whtFiler": "68,400/-",
+          "whtNonFiler": "205,200/-"
+        },
+        {
+          "name": "GLX VVT",
+          "price": "4,719,000/-",
+          "whtFiler": "70,785/-",
+          "whtNonFiler": "212,355/-"
+        }
+      ]
+    },
+  
+    {
+      "model": "Suzuki Every",
+      "vehicle": {
+        "imgSrc": [
+          "/images/cars/Every.png",
+          "/images/cars/colors/Every/solid white.png",
+          "/images/cars/colors/Every/silky silver.png",
+          "/images/cars/colors/Every/mineral grey.png",
+          "/images/cars/colors/Every/super black pearl.png"
+        ],
+        "hoverImgSrc": "/images/logos/every-logo.png",
+        "tag": "SPACIOUS",
+        "title": "Suzuki Every",
+        "description": "Spacious and comfortable, ideal for family or commercial use.",
+        "basePrice": "2,749,000",
+        "colors": [
+          "Solid White",
+          "Super Pearl Black",
+          "Mineral Gray",
+          "Silky Silver"
+        ]
+      },
+      "variants": [
+        {
+          "name": "VX",
+          "price": "2,749,000/-",
+          "whtFiler": "13,745/-",
+          "whtNonFiler": "41,235/-"
+        },
+        {
+          "name": "VXR",
+          "price": "2,799,000/-",
+          "whtFiler": "13,995/-",
+          "whtNonFiler": "41,985/-"
+        }
+      ]
+    },
+    {
+      "model": "Suzuki Ravi",
+      "vehicle": {
+        "imgSrc": [
+          "/images/cars/Ravi.png",
+          "/images/cars/colors/Ravi/gray.png",
+          "/images/cars/colors/Ravi/red.png"
+        ],
+        "hoverImgSrc": "/images/logos/ravi-logo.png",
+        "tag": "COMMERCIAL",
+        "title": "Suzuki Ravi",
+        "description": "Reliable and versatile, suitable for various commercial uses.",
+        "basePrice": "1,956,000",
+        "colors": ["White", "Red", "Gray"]
+      },
+      "variants": [
+        {
+          "name": "VX",
+          "price": "1,956,000/-",
+          "whtFiler": "9,280/-",
+          "whtNonFiler": "27,840/-"
+        }
+      ]
+    }
+  ],
+  "topSellers": [
+    {
+      "imgSrc": "/images/cars/Alto.png",
+      "hoverImgSrc": "/images/logos/alto-logo.png",
+      "tag": "TOP SELLER",
+      "title": "Suzuki Alto",
+      "description": "Compact and efficient, perfect for city driving.",
+      "price": "2,331,000"
+    },
+    {
+      "imgSrc": "/images/cars/Cultus.png",
+      "hoverImgSrc": "/images/logos/cultus-logo.png",
+      "tag": "TOP SELLER",
+      "title": "Suzuki Cultus",
+      "description": "Stylish and comfortable, equipped with auto gear shift.",
+      "price": "4,230,000"
+    },
+    {
+      "imgSrc": "/images/cars/swift.png",
+      "hoverImgSrc": "/images/logos/swift-logo.png",
+      "tag": "TOP SELLER",
+      "title": "Suzuki Swift",
+      "description": "Premium hatchback, offering advanced features and performance.",
+      "price": "4,416,000"
+    }
+  ],
+  "allVehicles": [
+   
+    {
+      "imgSrc": "/images/cars/swift.png",
+      "hoverImgSrc": "/images/logos/swift-logo.png",
+      "tag": "TOP SELLER",
+      "title": "Suzuki Swift",
+      "description": "Premium hatchback, offering advanced features and performance.",
+      "price": "4,416,000"
+    },
+    {
+      "imgSrc": "/images/cars/Alto.png",
+      "hoverImgSrc": "/images/logos/alto-logo.png",
+      "tag": "TOP SELLER",
+      "title": "Suzuki Alto",
+      "description": "Compact and efficient, perfect for city driving.",
+      "price": "2,331,000"
+    },
+    {
+      "imgSrc": "/images/cars/Cultus.png",
+      "hoverImgSrc": "/images/logos/cultus-logo.png",
+      "tag": "TOP SELLER",
+      "title": "Suzuki Cultus",
+      "description": "Stylish and comfortable, equipped with advanced features.",
+      "price": "4,230,000"
+    },
+    {
+      "imgSrc": "/images/cars/Every.png",
+      "hoverImgSrc": "/images/logos/every-logo.png",
+      "tag": "NEW ARRIVAL",
+      "title": "Suzuki Every",
+      "description": "Compact and efficient, ideal for urban transport and light cargo use.",
+      "price": "2,749,000"
+    },
+    {
+      "imgSrc": "/images/cars/Ravi.png",
+      "hoverImgSrc": "/images/logos/ravi-logo.png",
+      "tag": "FEATURED",
+      "title": "Suzuki Ravi",
+      "description": "Durable and versatile mini truck, ideal for commercial use.",
+      "price": "1,956,000"
+    }
+  ],
+  "testimonialsData": [
+    {
+      "name": "Ijaz Malik",
+      "image": "/images/testimonials/2.jpg",
+      "feedback": "They have better service and customer care",
+      "location": "Islamabad, Punjab"
+    },
+    {
+      "name": "Syed Nadeem",
+      "image": "/images/testimonials/1.jpg",
+      "feedback": "Professional, comfortable environment with all mechanical, electrical, and denting/painting services under one roof. Experienced staff.",
+      "location": "Model Town, Wah Cantt, Punjab"
+    },
+    {
+      "name": "Wajid Mehmood",
+      "image": "/images/testimonials/3.jpg",
+      "feedback": "Good service, good work, and good staff.",
+      "location": "Kamra, Punjab"
+    },
+    {
+      "name": "Rafeh Sultan",
+      "image": "/images/testimonials/4.jpg",
+      "feedback": "I purchased New Alto AGS and I found the Staff to be very humble and supportive towards customers. Five Stars",
+      "location": "Wah Cantt, Punjab"
+    }
+  ],
+  "vehicles": [
+    {
+      "name": "Suzuki Alto",
+      "image": "/images/cars/Alto.png",
+      "descriptionTitle": "Compact and Efficient",
+      "description": "The Suzuki Alto is designed for city driving, offering outstanding fuel efficiency and easy maneuverability for urban environments.",
+      "link": "#"
+    },
+    {
+      "name": "Suzuki Swift",
+      "image": "/images/cars/swift.png",
+      "descriptionTitle": "Dynamic Performance",
+      "description": "Experience the Suzuki Swift, offering a perfect blend of power and style, ideal for those who value agility and responsiveness.",
+      "link": "#"
+    },
+    
+    {
+      "name": "Suzuki Cultus",
+      "image": "/images/cars/Cultus.png",
+      "descriptionTitle": "Stylish and Reliable",
+      "description": "Discover the Suzuki Cultus, offering modern design, reliability, and the latest in safety features for a comfortable drive.",
+      "link": "#"
+    },
+    {
+      "name": "Suzuki Every",
+      "image": "/images/cars/Every.png",
+      "descriptionTitle": "Compact and Efficient",
+      "description": "The Suzuki Every is designed for both utility and efficiency, offering ample space and a compact design perfect for city driving and light cargo transport.",
+      "link": "#"
+    }
+  ],
+  "priceList": [
+    {
+      "model": "New Alto",
+      "variants": [
+        {
+          "name": "VX",
+          "price": "2,331,000/-",
+          "whtFiler": "11,655/-",
+          "whtNonFiler": "34,965/-"
+        },
+        {
+          "name": "VXR",
+          "price": "2,827,000/-",
+          "whtFiler": "14,135/-",
+          "whtNonFiler": "42,405/-"
+        },
+        {
+          "name": "VXR AGS",
+          "price": "2,989,000/-",
+          "whtFiler": "14,945/-",
+          "whtNonFiler": "44,835/-"
+        },
+        {
+          "name": "VXL AGS",
+          "price": "3,140,000/-",
+          "whtFiler": "15,700/-",
+          "whtNonFiler": "47,100/-"
+        }
+      ]
+    },
+    {
+      "model": "Cultus",
+      "variants": [
+        {
+          "name": "VXR",
+          "price": "4,230,000/-",
+          "whtFiler": "42,300/-",
+          "whtNonFiler": "126,900/-"
+        },
+        {
+          "name": "VXL",
+          "price": "4,316,000/-",
+          "whtFiler": "43,160/-",
+          "whtNonFiler": "129,480/-"
+        },
+        {
+          "name": "AGS",
+          "price": "4,618,000/-",
+          "whtFiler": "46,180/-",
+          "whtNonFiler": "138,540/-"
+        }
+      ]
+    },
+    {
+      "model": "All New Swift",
+      "variants": [
+        {
+          "name": "GL MT",
+          "price": "4,416,000/-",
+          "whtFiler": "66,240/-",
+          "whtNonFiler": "198,720/-"
+        },
+        {
+          "name": "GL VVT",
+          "price": "4,560,000/-",
+          "whtFiler": "68,400/-",
+          "whtNonFiler": "205,200/-"
+        },
+        {
+          "name": "GLX VVT",
+          "price": "4,719,000/-",
+          "whtFiler": "70,785/-",
+          "whtNonFiler": "212,355/-"
+        }
+      ]
+    },
+    
+    {
+      "model": "Every",
+      "variants": [
+        {
+          "name": "VX",
+          "price": "2,749,000/-",
+          "whtFiler": "13,745/-",
+          "whtNonFiler": "41,235/-"
+        },
+        {
+          "name": "VXR",
+          "price": "2,799,000/-",
+          "whtFiler": "13,995/-",
+          "whtNonFiler": "41,985/-"
+        }
+      ]
+    },
+    {
+      "model": "Ravi",
+      "variants": [
+        {
+          "name": "VX",
+          "price": "1,956,000/-",
+          "whtFiler": "9,280/-",
+          "whtNonFiler": "27,840/-"
+        }
+      ]
+    }
+  ],
+  "carVariants": {
+    "Alto": ["VX", "VXR", "VXR AGS", "VXL AGS"],
+    "Cultus": ["VXR", "VXL", "AGS"],
+    
+    "Swift": ["GL MT", "GL VVT", "GLX VVT"],
+    "Every": ["VX", "VXR"],
+    "Ravi": ["VX"]
+  },
+  "carColors": {
+    "Alto": ["Pearl Black", "Silky Silver", "Solid White"],
+    "Cultus": [
+      "Sand Beige",
+      "Pearl Red",
+      "Silky Silver",
+      "White",
+      "Super Pearl Black"
+    ],
+    
+    "Swift": [
+      "Phoenix Red",
+      "Solid White",
+      "Mineral Gray",
+      "Silky Silver",
+      "Black",
+      "Two-Tone"
+    ],
+    "Every": [
+      "Solid White",
+      "Super Black Pearl",
+      "Mineral Gray",
+      "Silky Silver"
+    ],
+    "Ravi": ["White", "Red", "Gray"]
+  },
+  "offerServicesLogos": [
+    {
+      "id": 1,
+      "icon": "/images/logos/svg-logos/auto_finance.png"
+    },
+    {
+      "id": 2,
+      "icon": "/images/logos/svg-logos/certified_used_car_logo.png"
+    },
+    {
+      "id": 3,
+      "icon": "/images/logos/svg-logos/exchange_logo.png"
+    },
+    {
+      "id": 4,
+      "icon": "/images/logos/svg-logos/sales.png"
+    },
+    {
+      "id": 5,
+      "icon": "/images/logos/svg-logos/service.png"
+    },
+    {
+      "id": 6,
+      "icon": "/images/logos/svg-logos/sga.png"
+    },
+    {
+      "id": 7,
+      "icon": "/images/logos/svg-logos/sgp.png"
+    },
+    {
+      "id": 8,
+      "icon": "/images/logos/svg-logos/suzuki_insurance_logo.png"
+    },
+    {
+      "id": 9,
+      "icon": "/images/logos/svg-logos/warranty.png"
+    },
+    {
+      "id": 10,
+      "icon": "/images/logos/svg-logos/auto_finance.png"
+    },
+    {
+      "id": 11,
+      "icon": "/images/logos/svg-logos/certified_used_car_logo.png"
+    },
+    {
+      "id": 12,
+      "icon": "/images/logos/svg-logos/exchange_logo.png"
+    },
+    {
+      "id": 13,
+      "icon": "/images/logos/svg-logos/sales.png"
+    },
+    {
+      "id": 14,
+      "icon": "/images/logos/svg-logos/service.png"
+    },
+    {
+      "id": 15,
+      "icon": "/images/logos/svg-logos/sga.png"
+    },
+    {
+      "id": 16,
+      "icon": "/images/logos/svg-logos/sgp.png"
+    },
+    {
+      "id": 17,
+      "icon": "/images/logos/svg-logos/suzuki_insurance_logo.png"
+    },
+    {
+      "id": 18,
+      "icon": "/images/logos/svg-logos/warranty.png"
+    }
+  ],
+  "variantPrices":[
+    { "model": "Cultus", "variant": "VXR", "price": "4,230,000/-" },
+    { "model": "Cultus", "variant": "VXL", "price": "4,316,000/-" },
+    { "model": "Cultus", "variant": "AGS", "price": "4,618,000/-" },
+    { "model": "Alto", "variant": "VX", "price": "2,331,000/-" },
+    { "model": "Alto", "variant": "VXR", "price": "2,827,000/-" },
+    { "model": "Alto", "variant": "VXR AGS", "price": "2,989,000/-" },
+    { "model": "Alto", "variant": "VXL AGS", "price": "3,140,000/-" },
+    { "model": "Swift", "variant": "GL MT", "price": "4,416,000/-" },
+    { "model": "Swift", "variant": "GL VVT", "price": "4,560,000/-" },
+    { "model": "Swift", "variant": "GLX VVT", "price": "4,719,000/-" },
+    { "model": "Every", "variant": "VX", "price": "2,749,000/-" },
+    { "model": "Every", "variant": "VXR", "price": "2,799,000/-" },
+    { "model": "Ravi", "variant": "VX", "price": "1,956,000/-" }
+  ]
+  
+  
+}
