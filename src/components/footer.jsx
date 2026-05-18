@@ -21,7 +21,7 @@ function Footer() {
             <span className="text-2xl text-red-600 font-dancing">
               delightful
             </span>{" "}
-            experience.
+            experience...
           </p>
         </div>
 
