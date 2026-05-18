@@ -34,11 +34,11 @@ pipeline {
             }
         }
 
-        stage('Deploy to Kubernetes') {
-            steps {
-                sh 'kubectl rollout restart deployment suzuki-app'
-            }
-        }
+        // stage('Deploy to Kubernetes') {
+        //     steps {
+        //         sh 'kubectl rollout restart deployment suzuki-app'
+        //     }
+        // }
 
     }
 
